@@ -5,9 +5,6 @@
     font-family: 'Arial', sans-serif;
 }
 body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     background-color: #0d1a2d;
 }
@@ -71,3 +68,13 @@ p {
 .creator a:hover {
     text-decoration: underline;
 }
+
+.cardlist {
+    padding-top: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+  }
